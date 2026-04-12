@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $pageTitle ?? 'Artecalli - Ónix y Mármol'; ?></title>
+    <title><?php echo $pageTitle ?? 'Artecalli Catalogo Web'; ?></title>
     <meta name="description" content="Catálogo de artesanías de mármol y ónix hechas a mano por artesanos mexicanos.">
     <link rel="icon" href="<?php echo $basePath; ?>/assets/images/logo.png">
     
