@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5,
 .hero-section {
     position: relative;
     min-height: 100vh;
-    background-image: url('../images/hero-bg.jpg');
+    background-image: url('../images/hero-bg1.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
