@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $pageTitle ?? 'Panel de Administrador'; ?> - Artecalli</title>
+    <title><?php echo $pageTitle ?? 'Panel del Administrador'; ?> - Artecalli</title>
     <link rel="icon" href="<?php echo $basePath; ?>/assets/images/logo.png">
     
     <!-- Bootstrap CSS -->
