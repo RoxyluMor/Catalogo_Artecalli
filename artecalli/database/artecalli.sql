@@ -2,7 +2,7 @@
 -- ARTECALLI - Base de datos MySQL para XAMPP
 -- =============================================
 
-CREATE DATABASE IF NOT EXISTS artecalli_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE IF NOT EXISTS artecalli_dbb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE artecalli_db;
 
 -- Tabla de usuarios (administradores)
