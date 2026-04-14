@@ -31,12 +31,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             header('Location: ' . $basePath . '/admin/productos.php');
             exit;
         } else {
-            $error = $result['Correo o contraseña incorrectos'];
+            $error = $result['Error'];
         }
-        if (!isset($_SESSION['usuario'])) {
-            header("Location: login.php");
-            exit();
-}
     }
 }
 ?>
