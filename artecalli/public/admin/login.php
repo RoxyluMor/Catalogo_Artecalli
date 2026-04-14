@@ -17,6 +17,7 @@ if (!AuthController::hasAdmin()) {
 
 $error = '';
 
+// Validar que el usuario haya iniciado sesión
 // Procesar login
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $usuario = trim($_POST['usuario'] ?? '');
