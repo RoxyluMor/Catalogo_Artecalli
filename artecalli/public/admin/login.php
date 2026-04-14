@@ -32,6 +32,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         } else {
             $error = $result['Correo o contraseña incorrectos'];
         }
+        if (!isset($_SESSION['usuario'])) {
+            header("Location: login.php");
+            exit();
+}
     }
 }
 ?>
